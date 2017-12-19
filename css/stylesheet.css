@@ -1,0 +1,559 @@
+		/* ================================= 
+  Base Element Styles
+==================================== */
+
+		* {
+		    box-sizing: border-box;
+		}
+
+
+
+
+
+		body {
+		    font-family: 'Alice', serif;
+		    line-height: 1.6;
+
+		    background: #E9F1F2;
+		}
+
+		body {
+		    padding: 0;
+		    margin: 0;
+		}
+
+		html,
+		body {
+		    height: 100%;
+		    margin: 0;
+		}
+
+		.wrapper {
+		    min-height: 100%;
+
+		    /* Equal to height of footer */
+		    /* But also accounting for potential margin-bottom of last child */
+		    margin-bottom: -50px;
+		}
+
+		.footer,
+		.push {
+		    height: 50px;
+		}
+
+
+
+		p {
+		    font-size: 18px;
+		    text-align: justify;
+		    margin-bottom: 1.8em;
+		    padding: 20px;
+
+		}
+
+
+		a {
+		    text-decoration: none;
+		    color: inherit;
+		}
+
+
+
+		h1 a {
+
+		    color: #fff;
+		}
+
+		li h3,
+		p {
+		    color: black;
+		}
+
+		h2,
+		h3,
+		h4 {
+		    margin-top: 5%;
+		    text-align: center;
+		}
+
+		h4 {
+		    margin-bottom: .4em;
+		}
+
+
+
+		/* ================================= 
+  Base Layout Styles
+==================================== */
+
+		/* ---- Navigation ---- */
+
+		.name {
+		    font-family: 'Rochester', cursive;
+		    font-size: 30px;
+		    color: white;
+		    background: #00849B;
+		    margin-top: -8px;
+		    padding: 50px
+		}
+
+		.frontend {
+		    font-family: 'Zilla Slab', serif;
+		    font-size: 18px;
+		    text-align: center;
+		    margin-top: -160px;
+		    padding: 50px;
+		}
+
+		.main-nav li {
+		    display: inline-block;
+
+		    list-style: none;
+
+		}
+
+		.main-nav {
+		    margin-top: -50px;
+		    margin-left: -29px;
+		    text-align: center;
+
+		}
+
+		.name a,
+		.main-nav a {
+		    display: block;
+		    text-align: center;
+		    padding: 40px 15px;
+		}
+
+		.main-nav a {
+		    font-family: 'Zilla Slab', serif;
+		    font-size: .80em;
+
+		    color: #23DFFF;
+		    text-transform: uppercase;
+		    padding: 5px;
+
+		    text-align: center;
+		}
+
+		/* effect-shine */
+
+		a.effect-shine:hover {
+		    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+		    -webkit-mask-size: 200%;
+		    animation: shine 2s infinite;
+		}
+
+		@-webkit-keyframes shine {
+		    from {
+		        -webkit-mask-position: 150%;
+		    }
+
+		    to {
+		        -webkit-mask-position: -50%;
+		    }
+		}
+
+		/* ---- Layout Containers ---- */
+
+		.main-header {
+		    padding-top: .5em;
+		    padding-bottom: .5em;
+		}
+
+		.main-footer {
+
+
+
+
+		    position: relat;
+		    left: 0;
+		    bottom: 0;
+		    width: 100%;
+		    background: #093840;
+		    padding: 1.5% 0;
+
+		    text-align: center;
+		}
+
+
+
+
+
+		.logo {
+		    display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-bottom: auto;
+		    margin-top: -200px;
+		    width: 50px;
+
+		}
+
+
+		.vector {
+		    display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+
+		.portf {
+
+		    font-family: 'Zilla Slab', serif;
+		    font-size: 18px;
+
+		    margin-top: 190px;
+
+
+
+		}
+
+
+		.prog-icons {
+		    margin-top: -30px;
+
+		    text-align: center;
+
+		    font-size: 35px;
+		    color: #00B6CE;
+
+		}
+
+
+
+		/*FORM*/
+
+		form {
+		    max-width: 300px;
+		    margin: 0 auto;
+		    margin-top: 50px;
+
+		}
+
+
+		/*FIELDS*/
+
+		input[type="text"],
+		input[type="email"],
+		input[type="tel"],
+		textarea,
+		select {
+		    background: rgba(255, 255, 255, 0.1);
+		    border: 1px solid black;
+		    border-radius: 4px;
+		    font-size: 16px;
+		    height: auto;
+		    margin: 0;
+		    outline: 0;
+		    padding: 15px;
+		    width: 100%;
+		    background-color: whitesmoke;
+		    color: black;
+		    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+		    margin-bottom: 30px;
+		}
+
+
+		select {
+		    padding: 6px;
+		    height: 32px;
+		    border-radius: 2px;
+		}
+
+		#zipcode {
+		    width: 50%;
+
+		}
+
+		fieldset {
+		    border: 0 none;
+		}
+
+		input:focus,
+		textarea:focus {
+		    background-color: #FF916B;
+		    border: 2px solid black;
+		}
+
+
+		/*PLACEHOLDER*/
+
+		::-webkit-input-placeholder {
+		    color: black;
+		    text-indent: 170px;
+		    font-size: 13px;
+		    font-style: italic;
+
+
+
+		}
+
+		:-moz-placeholder {
+		    /* Firefox 18- */
+		    color: black;
+		    text-indent: 170px;
+		    font-size: 13px;
+		    font-style: italic;
+
+		}
+
+		::-moz-placeholder {
+		    /* Firefox 19+ */
+		    color: black;
+		    text-indent: 170px;
+		    font-size: 13px;
+		    font-style: italic;
+
+		}
+
+		:-ms-input-placeholder {
+		    color: black;
+		    text-indent: 170px;
+		    font-size: 13px;
+		    font-style: italic;
+
+		}
+
+		/*BUTTON*/
+
+		button {
+		    padding: 19px 39px 18px 39px;
+		    color: #FFF;
+		    background-color: #00849B;
+		    font-size: 18px;
+		    text-align: center;
+		    font-style: normal;
+		    border-radius: 5px;
+		    width: 100%;
+		    border: 1px solid #093840;
+		    border-width: 1px 1px 3px;
+		    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+		    margin-bottom: 10px;
+		}
+
+
+		.social-icons {
+
+		    color: #BDC8D8;
+		    margin-top: 50px;
+		    margin-right: 20px;
+		}
+
+		.copyright {
+		    text-align: center;
+		    color: #BDC8D8;
+		    font-size: 15px;
+		    margin-top: -15px;
+
+
+		}
+
+
+		input[name="search"] {
+		    margin: 0 70px;
+		    height: 20px;
+		    width: 200px;
+		    border: 2px solid #000;
+		    border-radius: 4px;
+		    font-size: 12px;
+		    background-color: white;
+		    margin-top: 25px;
+
+		}
+
+		.field_set {
+		    border: 0;
+		}
+
+
+
+		.portfolio {
+		    margin: 0 auto;
+
+		    text-align: center;
+
+		}
+
+		.products ul {
+		    list-style: none;
+
+		    padding: 15px;
+		    display: block;
+		    max-width: 990px;
+
+
+		    margin-bottom: 20px;
+		}
+
+		.products li {
+		    display: inline-block;
+
+
+		    margin-bottom: -330px;
+		}
+
+		.products img {
+
+		    width: 200px;
+		    margin-top: 10px;
+
+		    margin-bottom: 5px;
+
+
+		}
+
+
+
+
+
+		/* ================================= 
+  Media Queries
+==================================== */
+
+		@media (min-width: 769px) {
+
+		    p {
+		        text-align: center;
+		    }
+		    body {
+		        padding-top: -0;
+		    }
+
+		    .main-header {
+		        width: 100%;
+		    }
+		    .main-nav {
+		        float: left;
+		    }
+		    .main-nav li {
+		        display: inline-block;
+		        margin: 2px;
+		    }
+		    .name {
+		        font-size: 30px;
+		    }
+
+		    form {
+		        min-width: 500px;
+
+		    }
+
+		    input[type="text"],
+		    input[type="email"],
+		    input[type="tel"],
+		    select#state {
+		        width: 70%;
+		        display: inline-block;
+		    }
+
+
+		    ::-webkit-input-placeholder {
+		        color: gray;
+		        text-indent: 230px;
+		        font-size: 13px;
+		        font-style: italic;
+
+
+		    }
+
+
+		    .form-contact label {
+		        display: inline-block;
+		        text-align: left;
+		        width: 25%;
+		        margin: 10px 0 5px;
+
+
+
+
+		    }
+
+		    input[name="search"] {
+		        margin: 0 20%;
+		        height: 20px;
+		        width: 430px;
+		        border: 2px solid #000;
+		        border-radius: 4px;
+		        font-size: 12px;
+		        background-color: white;
+		        margin-top: 20px;
+		        padding: 10px;
+		    }
+
+
+
+
+
+		}
+
+		@media (min-width: 1024px) {
+
+		    .main-nav {
+		        float: right;
+		        margin-top: -225px;
+		        margin-right: 40px;
+		        font-size: 18px;
+		    }
+
+
+		    .logo {
+		        display: block;
+
+		        margin-top: -200px;
+		        width: 50px;
+		    }
+
+		    p {
+		        font-size: 16px;
+
+		        text-align: justify;
+		        width: 500px;
+		        margin-left: auto;
+		        margin-right: auto;
+
+		    }
+
+
+		    h2,
+		    h3,
+		    h4 {
+		        font-size: 20px;
+		        margin-top: 2%;
+		        text-align: center;
+		    }
+
+
+		    input[name="search"] {
+		        margin: 0 32%;
+		        height: 20px;
+		        width: 430px;
+		        border: 2px solid #000;
+		        border-radius: 4px;
+		        font-size: 12px;
+		        background-color: white;
+		        margin-top: 20px;
+		        padding: 10px;
+		    }
+
+
+		    .prog-icons {
+		        margin-top: -30px;
+
+		        text-align: center;
+
+		        font-size: 35px;
+
+
+		    }
+
+		    form-contact {
+		        margin-top: 300px;
+		    }
+
+
+
+
+
+
+		}
