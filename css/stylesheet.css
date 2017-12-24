@@ -202,7 +202,7 @@
 
 		    font-family: 'Zilla Slab', serif;
 		    font-size: 18px;
-
+		    text-align: center;
 		    margin-top: 190px;
 
 
@@ -370,7 +370,7 @@
 
 		.portfolio {
 		    margin: 0 auto;
-
+		    margin-left: -40px;
 		    text-align: center;
 
 		}
@@ -389,7 +389,7 @@
 		.products li {
 		    display: inline-block;
 
-
+		    margin-top: 15px;
 		    margin-bottom: -330px;
 		}
 
@@ -491,7 +491,7 @@
 
 		    .main-nav {
 		        float: right;
-		        margin-top: -225px;
+		        margin-top: -215px;
 		        margin-right: 40px;
 		        font-size: 18px;
 		    }
@@ -552,6 +552,15 @@
 		    }
 
 
+
+		    .products img {
+		        margin-right: 5px;
+		        vertical-align: middle;
+		        border: 1px solid #ccc;
+		        height: 350px;
+		        width: 200px;
+
+		    }
 
 
 
