@@ -161,9 +161,16 @@ nav {
     background: #FF916B url(../img/menu-icon.png) center;
     border-radius: 4px 4px 4px 4px;
 
+<<<<<<< HEAD
 }
 
 a:hover#menu-icon {
+=======
+		    font-family: 'Zilla Slab', serif;
+		    font-size: 18px;
+		    text-align: center;
+		    margin-top: 190px;
+>>>>>>> origin/master
 
     background-color: #9f9dca;
     border-radius: 4px 4px 0 0;
@@ -289,7 +296,14 @@ footer {
 }
 
 
+<<<<<<< HEAD
 
+=======
+		.portfolio {
+		    margin: 0 auto;
+		    margin-left: -40px;
+		    text-align: center;
+>>>>>>> origin/master
 
 .portfolio {
     margin: 0 auto;
@@ -314,9 +328,15 @@ footer {
     display: block;
     max-width: 990px;
 
+<<<<<<< HEAD
 
     margin-bottom: 20px;
 }
+=======
+		    margin-top: 15px;
+		    margin-bottom: -330px;
+		}
+>>>>>>> origin/master
 
 .products li {
     display: inline-block;
@@ -553,6 +573,15 @@ button {
 
     }
 
+<<<<<<< HEAD
+=======
+		    .main-nav {
+		        float: right;
+		        margin-top: -215px;
+		        margin-right: 40px;
+		        font-size: 18px;
+		    }
+>>>>>>> origin/master
 
     .porfolio-section ul {
 
@@ -587,9 +616,21 @@ button {
 
 /*
 
+<<<<<<< HEAD
     footer {
         position: absolute;
         bottom: -90px;
+=======
+		    .products img {
+		        margin-right: 5px;
+		        vertical-align: middle;
+		        border: 1px solid #ccc;
+		        height: 350px;
+		        width: 200px;
+
+		    }
+
+>>>>>>> origin/master
 
         left: 0;
     }
