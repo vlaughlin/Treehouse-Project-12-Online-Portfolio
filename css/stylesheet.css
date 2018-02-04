@@ -80,11 +80,7 @@ a:hover {
 
 }
 
-img {
 
-    width: 100%;
-
-}
 
 header {
 
@@ -161,16 +157,14 @@ nav {
     background: #FF916B url(../img/menu-icon.png) center;
     border-radius: 4px 4px 4px 4px;
 
-<<<<<<< HEAD
+
 }
 
 a:hover#menu-icon {
-=======
-		    font-family: 'Zilla Slab', serif;
+   font-family: 'Zilla Slab', serif;
 		    font-size: 18px;
 		    text-align: center;
 		    margin-top: 190px;
->>>>>>> origin/master
 
     background-color: #9f9dca;
     border-radius: 4px 4px 0 0;
@@ -264,20 +258,13 @@ p {
 
 }
 
-/*
-
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: #303030;
-
-    padding: 1.5% 0;
-
-    text-align: center;
+ul img {
+    display: block;
+   margin-left:auto;
+    margin-right: auto;
+    
 }
 
-*/
 
 .prog-icons {
 
@@ -296,64 +283,6 @@ footer {
 }
 
 
-<<<<<<< HEAD
-
-=======
-		.portfolio {
-		    margin: 0 auto;
-		    margin-left: -40px;
-		    text-align: center;
->>>>>>> origin/master
-
-.portfolio {
-    margin: 0 auto;
-    margin-left: -56px;
-    margin-bottom: 5200px;
-    text-align: center;
-
-}
-
-/*
-.port-footer {
- 
-   margin-top: 5100px; 
-}
-
-*/
-
-.products ul {
-    list-style: none;
-
-    padding: 15px;
-    display: block;
-    max-width: 990px;
-
-<<<<<<< HEAD
-
-    margin-bottom: 20px;
-}
-=======
-		    margin-top: 15px;
-		    margin-bottom: -330px;
-		}
->>>>>>> origin/master
-
-.products li {
-    display: inline-block;
-
-    margin-top: 25px;
-
-}
-
-.products img {
-
-    width: 200px;
-
-    border: 1px solid #000;
-    margin-bottom: 5px;
-
-
-}
 
 
 
@@ -573,28 +502,16 @@ button {
 
     }
 
-<<<<<<< HEAD
-=======
+
 		    .main-nav {
 		        float: right;
 		        margin-top: -215px;
 		        margin-right: 40px;
 		        font-size: 18px;
 		    }
->>>>>>> origin/master
-
-    .porfolio-section ul {
-
-        margin-right: -100px;
-
-    }
-
-    .portfolio {
-
-        margin-bottom: 3500px;
 
 
-    }
+
 
     .form-contact {
         width: 300px;
@@ -614,30 +531,4 @@ button {
 
 }
 
-/*
 
-<<<<<<< HEAD
-    footer {
-        position: absolute;
-        bottom: -90px;
-=======
-		    .products img {
-		        margin-right: 5px;
-		        vertical-align: middle;
-		        border: 1px solid #ccc;
-		        height: 350px;
-		        width: 200px;
-
-		    }
-
->>>>>>> origin/master
-
-        left: 0;
-    }
-
-    
-
-.port-footer {
-    margin-bottom: -2500px;
-}
-/*
